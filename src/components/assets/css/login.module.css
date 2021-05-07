@@ -1,0 +1,311 @@
+body {
+  overflow-x: hidden;
+}
+.bod {
+  padding-top: 5px;
+  background-color: white;
+  height: 130vh;
+  width: 100vw;
+}
+.signInButton {
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 30px !important;
+  line-height: 45px !important;
+  color: #ffffff !important;
+  background: radial-gradient(
+    85.56% 1134.32% at 14.44% 21.15%,
+    #aa22cc 0%,
+    #d031d6 100%
+  ) !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 40px !important;
+  border: white !important;
+  outline: white !important;
+  padding: 8px 0px !important;
+  width: 284px !important;
+  margin-left: 130px !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  display: block !important;
+  transition: 300ms !important;
+  margin: 0px auto !important;
+  margin-bottom: 30px !important;
+}
+.signInButton:hover {
+  cursor: pointer;
+  transform: translateY(-8px);
+}
+
+.signInDiv {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: absolute;
+  color: #000000;
+}
+
+.loginHeader {
+  text-decoration: none;
+}
+.signInDiv p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #000000;
+}
+
+.welcomeLogin {
+  text-align: center;
+}
+.welcomeMessage {
+  margin-bottom: 10px;
+}
+.loginLogoHeader {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 41px;
+  color: #5ec0ab;
+  font-weight: 800;
+  margin-left: 25px;
+  cursor: pointer;
+  display: inline-block;
+}
+.loginLogoHeader:hover {
+  transform: translateY(-8px);
+}
+.loginmodaltitle {
+  margin-left: 25px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 40px;
+  color: #c342c8;
+}
+.hidden {
+  display: none !important;
+}
+.input-field-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+}
+.input-field-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.loginput {
+  margin-left: 50px;
+  margin-top: 5px;
+  max-width: 300px;
+  height: 25px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.modalSize {
+  width: 500px;
+  height: 400px;
+  margin: 0px auto;
+  align-self: center;
+  background-color: white;
+  outline: none;
+}
+.modalSizeSignUp {
+  width: 500px;
+  height: 550px;
+  margin: 0px auto;
+  align-self: center;
+  background-color: white;
+  outline: none;
+}
+.labellogin {
+  font-size: 25px;
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+.textarea:focus,
+input:focus,
+input[type]:focus,
+.uneditable-input:focus {
+  border-color: rgba(187, 42, 216, 0.8);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
+    0 0 8px rgba(66, 200, 188, 0.6);
+  outline: 0 none;
+}
+
+.logbut {
+  font-size: 35px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ad42c8;
+  text-align: center;
+  letter-spacing: 0.5px;
+  background-color: 0.2s ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  left: 52%;
+  padding: 10px;
+  border-radius: 15px;
+}
+.signUpBut {
+  font-size: 35px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #a834d6;
+  text-align: center;
+  letter-spacing: 0.5px;
+  background-color: 0.2s ease-out;
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  left: 45%;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.logbut:hover {
+  transition: 300ms;
+  filter: brightness(1.1);
+}
+
+.signUpBut:hover {
+  transition: 300ms;
+  filter: brightness(1.1);
+}
+
+.exitButton {
+  position: absolute;
+  right: 0%;
+  padding-right: 5px;
+  padding-top: 5px;
+  top: 0%;
+}
+.forgotPassword {
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  right: 28%;
+}
+.colorTitle {
+  color: #c842c1;
+}
+.labelStyle {
+  font-size: 25px !important;
+}
+
+.titleInput {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #9e9e9e !important;
+}
+
+.spaceBelow {
+  margin-bottom: 0px;
+}
+
+.input-field {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+abbr {
+  color: red;
+  text-decoration: none !important;
+}
+.forgotPassButton {
+  font-size: 28px;
+  color: grey;
+}
+.feedback {
+  font-size: 14px;
+
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: red;
+}
+.divSize {
+  max-width: 400px;
+  margin: 0px auto;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.center {
+  position: absolute;
+  width: 400px;
+}
+.textCenter {
+  text-align: center;
+}
+.goToSignup {
+  position: absolute;
+  left: 41%;
+  top: 54%;
+}
+.typeLabel {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+input[type="radio"] {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Chrome, Safari, Opera */
+  transform: scale(0.5);
+  border: none !important;
+  outline: none !important;
+  border-color: none;
+  box-shadow: none;
+  outline: 0 none;
+  margin: 0px auto;
+  padding: 0px;
+}
+input[type="radio"]:focus {
+  border: none;
+  box-shadow: none;
+  outline: 0 none;
+}
+.rowRadFlex {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+}
+.colRowFlex {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+.radPositionone {
+}
+.radPositiontwo {
+}
+.fontSizeHtwo {
+  margin-bottom: 10px;
+}
+
+.logPageButton {
+  background: #b33fe0 !important;
+  outline: none !important;
+  border: none !important;
+  margin-top: 10px;
+}
+.logPageButton:hover {
+  transition: 300ms;
+  filter: brightness(1.1);
+}
+.formLabelSpace {
+  margin-left: 15px;
+  margin-right: 15px;
+}

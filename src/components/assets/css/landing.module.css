@@ -1,0 +1,380 @@
+@import url(//db.onlinewebfonts.com/c/040a78b437acd0433612f92e61d04a1b?family=Gilroy-Medium);
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.landingPageStyle {
+  max-height: 100vh !important;
+  overflow: hidden;
+}
+
+.h1 {
+  font-family: monaco, monospace;
+  font-size: 8em;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 8%;
+  padding: 2rem;
+  background: #08f385;
+  border-radius: 10px;
+  position: absolute;
+  animation: bounce 20s infinite;
+}
+
+.text {
+  font-family: monaco, monospace;
+  font-size: 3em;
+  margin-left: 10%;
+  margin-top: 22%;
+  padding: 2rem;
+  background: #08f3f3;
+  border-radius: 10px;
+  position: absolute;
+  animation: bounce 10s infinite;
+}
+
+.warning {
+  font-family: monaco, monospace;
+  font-size: 2em;
+  color: #ffffff;
+  margin-left: 75%;
+  margin-top: 20%;
+  padding: 2rem;
+  background: #ec5a5a;
+  border-radius: 10px;
+  position: absolute;
+  animation: bounce 5s infinite;
+}
+.credits {
+  font-family: monaco, monospace;
+  font-size: 2em;
+  margin-left: 70%;
+  margin-top: 30%;
+  padding: 2rem;
+  background: #eeff00;
+  border-radius: 10px;
+  position: absolute;
+  animation: bounce 15s infinite;
+}
+
+.comingSoon {
+  font-family: monaco, monospace;
+  font-size: 2em;
+  margin-top: 20%;
+  margin-left: 40%;
+  padding: 2rem;
+  background: #ec5a5a;
+  border-radius: 10px;
+  position: absolute;
+  animation: bounce 15s infinite;
+}
+
+.loginButton {
+  font-family: Hack, monospace;
+  background: #bbff00;
+  color: #1d1d1d;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 1.5rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 10px;
+  width: auto;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 60%;
+  min-width: 250px;
+  animation: bounce 0.75s infinite;
+}
+.loginButton::after {
+  content: "\f2f6";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+  position: absolute;
+  left: 80%;
+  top: 54%;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+
+.loginButton:hover {
+  background: #2b2bff;
+  transition: all 0.5s;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px #0000ff61;
+  padding: 1.5rem 3rem 1.5rem 1.5rem;
+  color: #ffffff;
+}
+.hero {
+  background-image: url(https://media.publit.io/file/twister.png);
+  background-size: 10px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
+.hero b {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e34add;
+  position: absolute;
+  -webkit-animation: moveX 10s linear 0s infinite alternate,
+    moveY 10s linear 0s infinite alternate;
+  -moz-animation: moveX 10s linear 0s infinite alternate,
+    moveY 10s linear 0s infinite alternate;
+  -o-animation: moveX 10s linear 0s infinite alternate,
+    moveY 10s linear 0s infinite alternate;
+  animation: moveX 10s linear 0s infinite alternate,
+    moveY 10s linear 0s infinite alternate;
+}
+
+.hero c {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #5dcfe8;
+  position: absolute;
+  -webkit-animation: moveX 20s linear 0s infinite alternate,
+    moveY 5s linear 0s infinite alternate;
+  -moz-animation: moveX 20s linear 0s infinite alternate,
+    moveY 5s linear 0s infinite alternate;
+  -o-animation: moveX 10s linear 0s infinite alternate,
+    moveY 5s linear 0s infinite alternate;
+  animation: moveX 20s linear 0s infinite alternate,
+    moveY 5s linear 0s infinite alternate;
+}
+
+.hero d {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #d4e34a;
+  position: absolute;
+  -webkit-animation: moveX 10s linear 0s infinite alternate,
+    moveY 40s linear 0s infinite alternate;
+  -moz-animation: moveX 10s linear 0s infinite alternate,
+    moveY 40s linear 0s infinite alternate;
+  -o-animation: moveX 10s linear 0s infinite alternate,
+    moveY 40s linear 0s infinite alternate;
+  animation: moveX 10s linear 0s infinite alternate,
+    moveY 40s linear 0s infinite alternate;
+}
+
+.hero e {
+  display: block;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #e44141;
+  position: absolute;
+  -webkit-animation: moveX 10s linear 0s infinite alternate,
+    moveY 80s linear 0s infinite alternate;
+  -moz-animation: moveX 10s linear 0s infinite alternate,
+    moveY 80s linear 0s infinite alternate;
+  -o-animation: moveX 10s linear 0s infinite alternate,
+    moveY 80s linear 0s infinite alternate;
+  animation: moveX 10s linear 0s infinite alternate,
+    moveY 80s linear 0s infinite alternate;
+}
+
+.hero f {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #4fe34a;
+  position: absolute;
+  -webkit-animation: moveX 20s linear 0s infinite alternate,
+    moveY 11s linear 0s infinite alternate;
+  -moz-animation: moveX 20s linear 0s infinite alternate,
+    moveY 11s linear 0s infinite alternate;
+  -o-animation: moveX 20s linear 0s infinite alternate,
+    moveY 11s linear 0s infinite alternate;
+  animation: moveX 20s linear 0s infinite alternate,
+    moveY 11s linear 0s infinite alternate;
+}
+
+.hero g {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #e34add;
+  position: absolute;
+  -webkit-animation: moveX 16s linear 0s infinite alternate,
+    moveY 14s linear 0s infinite alternate;
+  -moz-animation: moveX 16s linear 0s infinite alternate,
+    moveY 14s linear 0s infinite alternate;
+  -o-animation: moveX 16s linear 0s infinite alternate,
+    moveY 14s linear 0s infinite alternate;
+  animation: moveX 16s linear 0s infinite alternate,
+    moveY 14s linear 0s infinite alternate;
+}
+
+.hero h {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #5dcfe8;
+  position: absolute;
+  -webkit-animation: moveX 20s linear 0s infinite alternate,
+    moveY 9s linear 0s infinite alternate;
+  -moz-animation: moveX 20s linear 0s infinite alternate,
+    moveY 9s linear 0s infinite alternate;
+  -o-animation: moveX 10s linear 0s infinite alternate,
+    moveY 9s linear 0s infinite alternate;
+  animation: moveX 20s linear 0s infinite alternate,
+    moveY 9s linear 0s infinite alternate;
+}
+
+.hero i {
+  display: block;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #d4e34a;
+  position: absolute;
+  -webkit-animation: moveX 20s linear 0s infinite alternate,
+    moveY 25s linear 0s infinite alternate;
+  -moz-animation: moveX 20s linear 0s infinite alternate,
+    moveY 25s linear 0s infinite alternate;
+  -o-animation: moveX 20s linear 0s infinite alternate,
+    moveY 25s linear 0s infinite alternate;
+  animation: moveX 20s linear 0s infinite alternate,
+    moveY 25s linear 0s infinite alternate;
+}
+
+.hero j {
+  display: block;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-color: #e44141;
+  position: absolute;
+  -webkit-animation: moveX 13s linear 0s infinite alternate,
+    moveY 30s linear 0s infinite alternate;
+  -moz-animation: moveX 13s linear 0s infinite alternate,
+    moveY 30s linear 0s infinite alternate;
+  -o-animation: moveX 13s linear 0s infinite alternate,
+    moveY 30s linear 0s infinite alternate;
+  animation: moveX 13s linear 0s infinite alternate,
+    moveY 30s linear 0s infinite alternate;
+}
+
+.hero k {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #4fe34a;
+  position: absolute;
+  -webkit-animation: moveX 15s linear 0s infinite alternate,
+    moveY 12s linear 0s infinite alternate;
+  -moz-animation: moveX 15s linear 0s infinite alternate,
+    moveY 12s linear 0s infinite alternate;
+  -o-animation: moveX 15s linear 0s infinite alternate,
+    moveY 12s linear 0s infinite alternate;
+  animation: moveX 15s linear 0s infinite alternate,
+    moveY 12s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100vw;
+  }
+}
+@-moz-keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100vw;
+  }
+}
+@-o-keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100vw;
+  }
+}
+@keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100vw;
+  }
+}
+@-webkit-keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100vh;
+  }
+}
+@-moz-keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100vh;
+  }
+}
+@-o-keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100vh;
+  }
+}
+@keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100vh;
+  }
+}
+
+@keyframes bounce {
+  20%,
+  53%,
+  80%,
+  0%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
