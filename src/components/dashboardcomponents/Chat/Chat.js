@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PubNub from "pubnub";
 import { PubNubProvider, usePubNub } from "pubnub-react";
-import { faHackerNews } from "@fortawesome/free-brands-svg-icons";
 
 const pubnub = new PubNub({
   publishKey: "pub-c-611d373e-463e-4fd2-86b0-e7708d07baf1",

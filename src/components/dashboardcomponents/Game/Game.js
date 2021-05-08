@@ -4,6 +4,7 @@ import "./Game.scss";
 import * as ml5 from "ml5";
 import * as p5 from "p5";
 import { db } from "../../../firebase";
+import axios from "axios";
 
 let video;
 let poseNet;
@@ -41,8 +42,20 @@ let LAtarget;
 let RAtarget;
 let targets = [];
 let set = false;
+let quote;
 
+let qidx = 0;
 let done = 0;
+
+let quotes = [];
+
+async function getQuotes() {
+  const result = await axios({
+    method: "get",
+    url: "https://type.fit/api/quotes",
+  });
+  quotes = result.data;
+}
 
 export default class Game extends Component {
   constructor(props) {
@@ -52,6 +65,7 @@ export default class Game extends Component {
 
   Sketch = (sketch) => {
     sketch.setup = () => {
+      getQuotes();
       let cnv = sketch.createCanvas(width, height);
       cnv.position(400, 0);
       video = sketch.createCapture(sketch.VIDEO);
@@ -246,6 +260,13 @@ export default class Game extends Component {
             }
             sketch.fill(187, 255, 0);
             sketch.noStroke();
+            while (qidx > 1000) {
+              quote = quotes[Math.floor(Math.random() * quotes.length)].text;
+              qidx = 0;
+            }
+            qidx++;
+            sketch.textSize(30);
+            sketch.text(quote, 100, 1000);
             sketch.ellipse(keypoint.position.x, keypoint.position.y, 20, 20);
           }
         }

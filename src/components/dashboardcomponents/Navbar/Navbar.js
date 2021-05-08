@@ -18,14 +18,14 @@ import {
   HashRouter,
 } from "react-router-dom";
 
-let score;
+var score;
 
 db.collection("accounts")
   .doc("JYiZVFFxW2NpSTS3HNhfmGmvI063")
   .onSnapshot(function (doc) {
-    score = doc.data().score;
-    console.log("Current data: ", doc.data());
+    score = doc.data().score.high;
     console.log(score);
+    console.log("Current data: ", doc.data());
   });
 
 export default function Navbar() {
@@ -148,6 +148,9 @@ export default function Navbar() {
       <a className="logOut" variant="link" onClick={handleLogout}>
         Log Out
       </a>
+      <div>
+        <p>High Score: {score} </p>
+      </div>
     </div>
   );
 }
